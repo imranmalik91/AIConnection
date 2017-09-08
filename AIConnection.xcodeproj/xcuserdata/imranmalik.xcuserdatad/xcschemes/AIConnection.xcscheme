@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "143348DD1F4AFEFA00A627BC"
-               BuildableName = "NoInternet.app"
-               BlueprintName = "NoInternet"
-               ReferencedContainer = "container:NoInternet.xcodeproj">
+               BuildableName = "AIConnection.app"
+               BlueprintName = "AIConnection"
+               ReferencedContainer = "container:AIConnection.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "143348DD1F4AFEFA00A627BC"
-            BuildableName = "NoInternet.app"
-            BlueprintName = "NoInternet"
-            ReferencedContainer = "container:NoInternet.xcodeproj">
+            BuildableName = "AIConnection.app"
+            BlueprintName = "AIConnection"
+            ReferencedContainer = "container:AIConnection.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "143348DD1F4AFEFA00A627BC"
-            BuildableName = "NoInternet.app"
-            BlueprintName = "NoInternet"
-            ReferencedContainer = "container:NoInternet.xcodeproj">
+            BuildableName = "AIConnection.app"
+            BlueprintName = "AIConnection"
+            ReferencedContainer = "container:AIConnection.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "143348DD1F4AFEFA00A627BC"
-            BuildableName = "NoInternet.app"
-            BlueprintName = "NoInternet"
-            ReferencedContainer = "container:NoInternet.xcodeproj">
+            BuildableName = "AIConnection.app"
+            BlueprintName = "AIConnection"
+            ReferencedContainer = "container:AIConnection.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

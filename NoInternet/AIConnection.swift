@@ -10,7 +10,6 @@ import UIKit
 import  SystemConfiguration
 
 
-
 class AIConnection: UIViewController {
     
     //Internet available status for check

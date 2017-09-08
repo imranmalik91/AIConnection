@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  NoInternet
+//  AIConnection
 //
 //  Created by Imran Malik on 8/21/17.
 //  Copyright © 2017 Imran Malik. All rights reserved.

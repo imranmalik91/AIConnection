@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NoInternet.xcodeproj">
+      location = "self:/Users/imranmalik/Google Drive/Imran Demo/NoInternet/AIConnection.xcodeproj">
    </FileRef>
 </Workspace>

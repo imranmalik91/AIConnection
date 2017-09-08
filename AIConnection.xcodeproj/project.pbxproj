@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		143348DE1F4AFEFA00A627BC /* NoInternet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoInternet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143348DE1F4AFEFA00A627BC /* AIConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143348E11F4AFEFA00A627BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		143348E31F4AFEFA00A627BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		143348E61F4AFEFA00A627BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		143348D51F4AFEFA00A627BC = {
 			isa = PBXGroup;
 			children = (
-				143348E01F4AFEFA00A627BC /* NoInternet */,
+				143348E01F4AFEFA00A627BC /* AIConnection */,
 				143348DF1F4AFEFA00A627BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		143348DF1F4AFEFA00A627BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				143348DE1F4AFEFA00A627BC /* NoInternet.app */,
+				143348DE1F4AFEFA00A627BC /* AIConnection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		143348E01F4AFEFA00A627BC /* NoInternet */ = {
+		143348E01F4AFEFA00A627BC /* AIConnection */ = {
 			isa = PBXGroup;
 			children = (
 				143348E11F4AFEFA00A627BC /* AppDelegate.swift */,
@@ -64,15 +64,16 @@
 				143348EA1F4AFEFA00A627BC /* LaunchScreen.storyboard */,
 				143348ED1F4AFEFA00A627BC /* Info.plist */,
 			);
+			name = AIConnection;
 			path = NoInternet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		143348DD1F4AFEFA00A627BC /* NoInternet */ = {
+		143348DD1F4AFEFA00A627BC /* AIConnection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 143348F01F4AFEFA00A627BC /* Build configuration list for PBXNativeTarget "NoInternet" */;
+			buildConfigurationList = 143348F01F4AFEFA00A627BC /* Build configuration list for PBXNativeTarget "AIConnection" */;
 			buildPhases = (
 				143348DA1F4AFEFA00A627BC /* Sources */,
 				143348DB1F4AFEFA00A627BC /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = NoInternet;
+			name = AIConnection;
 			productName = NoInternet;
-			productReference = 143348DE1F4AFEFA00A627BC /* NoInternet.app */;
+			productReference = 143348DE1F4AFEFA00A627BC /* AIConnection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,12 +100,11 @@
 				TargetAttributes = {
 					143348DD1F4AFEFA00A627BC = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = LQSB8VPR8N;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 143348D91F4AFEFA00A627BC /* Build configuration list for PBXProject "NoInternet" */;
+			buildConfigurationList = 143348D91F4AFEFA00A627BC /* Build configuration list for PBXProject "AIConnection" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				143348DD1F4AFEFA00A627BC /* NoInternet */,
+				143348DD1F4AFEFA00A627BC /* AIConnection */,
 			);
 		};
 /* End PBXProject section */
@@ -267,11 +267,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LQSB8VPR8N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NoInternet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.podium.NoInternet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.AIConnection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -280,11 +281,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LQSB8VPR8N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NoInternet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.podium.NoInternet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.AIConnection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -292,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		143348D91F4AFEFA00A627BC /* Build configuration list for PBXProject "NoInternet" */ = {
+		143348D91F4AFEFA00A627BC /* Build configuration list for PBXProject "AIConnection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143348EE1F4AFEFA00A627BC /* Debug */,
@@ -301,7 +303,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		143348F01F4AFEFA00A627BC /* Build configuration list for PBXNativeTarget "NoInternet" */ = {
+		143348F01F4AFEFA00A627BC /* Build configuration list for PBXNativeTarget "AIConnection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				143348F11F4AFEFA00A627BC /* Debug */,
