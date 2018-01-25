@@ -104,12 +104,11 @@ class AIConnection: UIViewController {
         if !isInternetAvailable() {
             timer?.invalidate()
             validateTimer(internetStatus: .disconnected)
-            UIApplication.topViewController { (controller) in
-                DispatchQueue.main.async(execute: {
-                    self.modalPresentationStyle = .overCurrentContext
-                    controller.present(self, animated: true, completion: nil)
-                })
-            }
+            let alertWindow = UIWindow(frame: UIScreen.main.bounds)
+            alertWindow.rootViewController = UIViewController()
+            alertWindow.windowLevel = UIWindowLevelAlert + 1
+            alertWindow.makeKeyAndVisible()
+            alertWindow.rootViewController?.present(self, animated: true, completion: nil)
         }
     }
     
